@@ -118,7 +118,7 @@ Toggle {theme === "light" ? "Dark" : "Light"} Mode
                 color: themeStyles[theme].color,
             }}
             
-             title={<Link to={`/user/${user.id}/posts`}>{user.name}</Link>}
+             title={<Link to={`/user/${user.id}/posts`} style={{display:"block"}} >{user.name}</Link>}
             
             >
             <Link to={`/user/${user.id}/posts`} style={{ textDecoration: "none", color: "inherit" }}> 

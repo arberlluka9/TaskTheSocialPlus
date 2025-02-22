@@ -1,29 +1,26 @@
-    # React + Vite
-    # Users and Posts App
+# React + Vite: Users and Posts App
 
-    A React application built with Vite that fetches and displays users and their posts from https://jsonplaceholder.typicode.com/users and https://jsonplaceholder.typicode.com/posts?userId={id}.
+A React application built with **Vite** that fetches and displays users and their posts from the following APIs:
 
-    ## Features
+- **Users**: `https://jsonplaceholder.typicode.com/users`
+- **Posts**: `https://jsonplaceholder.typicode.com/posts?userId={id}`
 
-    - **User List Page**: Displays a list of users with details (name, email, company, website).
-    - **User Posts Page**: Displays posts for a selected user (title and body).
-    - **Search Bar**: Allows searching users and posts by title or content.
-    - **UI Framework**: Ant Design for styling and components.
-    - **State Management**: Redux for handling the search term.
+## Features
 
-    ## Installation
+- **User List Page**: Displays a list of users with details such as name, email, company, and website.
+- **User Posts Page**: Displays posts for a selected user, showing the title and body of each post.
+- **Search Bar**: Allows searching users and posts by title or content.
+- **UI Framework**: Uses Ant Design for styling and components.
+- **State Management**: Redux is used to handle the search term globally across the app.
 
-    ### 1. Clone the Repository
+## Installation
 
-    ```bash
-    git clone https://github.com/your-repository-name.git
-    cd your-repository-name
+### 1. Clone the Repository
 
-    This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+bash
+git clone https://github.com/your-repository-name.git
+cd your-repository-name
 
-    Currently, two official plugins are available:
+Downlaod node.js from https://nodejs.org/en/download.
 
-    - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-    - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
+npm install before running it with npm run dev in Windows or npm start on macOS
