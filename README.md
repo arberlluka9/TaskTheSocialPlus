@@ -14,13 +14,36 @@ A React application built with **Vite** that fetches and displays users and thei
 - **State Management**: Redux is used to handle the search term globally across the app.
 
 ## Installation
+# Getting Started
 
-### 1. Clone the Repository
+## Setup and Run the Project
+Copy and paste the following commands into your terminal to set up and run the project:
 
+# Clone the Repository
 bash
-git clone https://github.com/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/arberlluka9/TaskTheSocialPlus
+cd TaskTheSocialPlus
 
-Downlaod node.js from https://nodejs.org/en/download.
+# Install Node.js (Skip this if already installed)
+ Download and install from: https://nodejs.org/en/download/
+node -v  # Check if Node.js is installed
+npm -v   # Check if npm is installed
 
-npm install before running it with npm run dev in Windows or npm start on macOS
+# Install Dependencies
+bash
+npm install
+
+
+# Start the Development Server
+bash
+npm run dev
+
+
+# To Build for Production
+bash
+npm run build
+
+
+# To Preview the Production Build
+bash
+npm run preview
