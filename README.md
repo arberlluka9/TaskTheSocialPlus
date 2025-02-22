@@ -30,20 +30,21 @@ node -v  # Check if Node.js is installed
 npm -v   # Check if npm is installed
 
 # Install Dependencies
-bash
+```bash
 npm install
-
+```
 
 # Start the Development Server
-bash
+```bash
 npm run dev
-
+```
 
 # To Build for Production
-bash
+```bash
 npm run build
-
+```
 
 # To Preview the Production Build
-bash
+```bash
 npm run preview
+```
